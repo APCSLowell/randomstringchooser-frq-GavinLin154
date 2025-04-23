@@ -5,7 +5,7 @@ public class RandomLetterChooser extends RandomStringChooser
 	{ 
 		/* to be implemented in part (b) */
 		String[] letterList = getSingleLetters(str);
-		Super(letterList);
+		super(letterList);
 	}
 	
 	
