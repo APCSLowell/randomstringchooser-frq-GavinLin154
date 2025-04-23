@@ -17,7 +17,7 @@ public class RandomStringChooser
       if(stringList.size() == 0) {
           return "NONE";
       }  
-      returnIndex = (int)(Math.random() * (StringList.size()));
+      returnIndex = (int)(Math.random() * (stringList.size()));
       returnWord = stringList.get(returnIndex);
       stringList.remove(returnIndex);
       return returnWord;
